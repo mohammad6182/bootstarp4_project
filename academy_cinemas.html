@@ -11,21 +11,7 @@
     <title>Academy Cinemas</title>
   </head>
   <body>
-    <nav>
-      <div>
-        <ul>
-          <a href="#about">
-            <li>About</li>
-          </a>
-          <a href="#showtimes">
-            <li>Showtimes</li>
-          </a>
-          <a href="#deals">
-            <li>Deals</li>
-          </a>
-        </ul>
-      </div>
-    </nav>
+
     
     <div class="container">
 
@@ -34,10 +20,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">About</a>
+                  <a class="nav-link text-light" href="#about">About</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">Showtimes</a>
+                  <a class="nav-link text-light" href="#showtimes">Showtimes</a>
                 </li>
                 <li class="nav-item active">
                   
@@ -49,7 +35,7 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active text-light" href="#">Deals</a>
+                  <a class="nav-link active text-light" href="#deals">Deals</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -91,7 +77,7 @@
                 <h3>Now Playing</h3>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <a class="nav-link" href="#">Kong: Skull Island</a>
+                        <a class="nav-link" href="#kong">Kong: Skull Island</a>
                     </li>
                     <li class="list-group-item">
                         <a class="nav-link" href="#">Ghost in the shell</a>
@@ -105,7 +91,7 @@
           </div>
 
           <!--showtimes-->
-
+          <section id="showtimes">
           <div class="card-group">
             <div class="card">
               <img class="card-img-top" src="./img/beautyandthebeast.jpg" alt="Beauty and the Beast">
@@ -123,7 +109,7 @@
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
-            <div class="card">
+            <div class="card" id="kong">
               <img class="card-img-top" src="./img/kongskullisland.jpg" alt="Kong: Skull Island">
               <div class="card-body">
                 <h5 class="card-title">Kong: Skull Island</h5>
@@ -132,6 +118,7 @@
               </div>
             </div>
           </div>
+          </section>
           <!--/showtimes-->
           <section id="deals">
              <div class="text-center">
